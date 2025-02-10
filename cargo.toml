@@ -1,0 +1,17 @@
+[package]
+name = "datafusion-impl"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "Implementation of regexp_extract for DataFusion"
+
+[dependencies]
+datafusion = "32.0.0"
+regex = "1.10.2"
+arrow = { version = "47.0.0", features = ["prettyprint"] }
+tokio = { version = "1.0", features = ["full"] }
+
+[dev-dependencies]
+criterion = "0.5"
+rand = "0.8"
+tokio-test = "0.4"

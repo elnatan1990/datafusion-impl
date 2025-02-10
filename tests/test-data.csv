@@ -1,0 +1,9 @@
+text,expected
+100-200,100
+300-400,300
+500-600,500
+abc,
+,
+invalid-pattern,
+123-456-789,123
+test$value,
